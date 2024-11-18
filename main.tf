@@ -122,3 +122,7 @@ resource "aws_security_group" "mysql_sg" {
     cidr_blocks = var.port_egress["cidr_blocks"]
   }
 }
+
+
+ 
+  
